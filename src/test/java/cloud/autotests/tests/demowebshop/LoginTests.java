@@ -1,6 +1,6 @@
-package cloud.autotests.tests.example;
+package cloud.autotests.tests.demowebshop;
 
-import cloud.autotests.config.example.App;
+import cloud.autotests.config.demowebshop.App;
 import cloud.autotests.helpers.AllureRestAssuredFilter;
 import cloud.autotests.tests.TestBase;
 import com.codeborne.selenide.Configuration;
@@ -17,7 +17,7 @@ import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 
 @Story("Login tests")
-public class EXAMPLELoginTests extends TestBase {
+public class LoginTests extends TestBase {
 
     static String login,
             password;

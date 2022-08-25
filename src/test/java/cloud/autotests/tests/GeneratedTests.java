@@ -3,6 +3,7 @@ package cloud.autotests.tests;
 import cloud.autotests.helpers.DriverUtils;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.open;
@@ -10,14 +11,21 @@ import static com.codeborne.selenide.Selenide.title;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
-
+@Tag("regression")
 public class GeneratedTests extends TestBase {
     @Test
-    @Description("Soon to be implemented by you (or QA.GURU engineers)")
-    @DisplayName("TemplateOne")
+    @Description("Soon to be implemented by you ")
+    @DisplayName("TemplateOne page opened")
     void generatedTest() {
         step("Открыть \"https://www.hopa.com/\"", () -> {
-            step("// todo: just add selenium action");
+            step("Inside", () -> {
+                step("Inside2.1", () -> {
+                    open("https://www.hopa.com/");
+                });
+                step("Inside2.2", () -> {
+                    open("https://www.hopa.com/");
+                });
+            });
         });
 
         step("Проверить URL", () -> {
@@ -30,7 +38,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Page title should have header text")
     void titleTest() {
         step("Open url 'https://www.hopa.com/'", () ->
-            open("https://www.hopa.com/"));
+                open("https://www.hopa.com/"));
 
         step("Page title should have text 'Hopa Casino Online - spielen Sie die besten Online-Spiele mit einem 200 € Casino Bonus'", () -> {
             String expectedTitle = "Hopa Casino Online - spielen Sie die besten Online-Spiele mit einem 200 € Casino Bonus";
@@ -45,7 +53,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://www.hopa.com/'", () ->
-            open("https://www.hopa.com/"));
+                open("https://www.hopa.com/"));
 
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();

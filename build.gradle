@@ -21,9 +21,11 @@ allure {
     }
 }
 
+
 repositories {
     mavenCentral()
 }
+
 
 dependencies {
     testImplementation (
@@ -38,10 +40,6 @@ dependencies {
             "org.junit.jupiter:junit-jupiter:$junitVersion")
 
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
-
-test {
-    useJUnitPlatform()
 }
 
 
@@ -73,6 +71,9 @@ tasks.withType(Test) {
     }
 }
 
+test {
+    useJUnitPlatform()
+}
 
 task regression(type: Test) {
     useJUnitPlatform {
