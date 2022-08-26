@@ -33,6 +33,7 @@ public class TestBase {
         AllureAttachments.addPageSource();
 //        AllureAttachments.attachNetwork(); // todo
         AllureAttachments.addBrowserConsoleLogs();
+        AllureAttachments.addVideoRecord();
         Selenide.closeWebDriver();
 
         if (Project.isVideoOn()) {
