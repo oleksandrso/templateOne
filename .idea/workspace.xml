@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8def4837-79fc-4292-8529-b263d33a39bc" name="Changes" comment="new structure">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/demowebshop/app.properties" afterDir="false" />
+    <list default="true" id="8def4837-79fc-4292-8529-b263d33a39bc" name="Changes" comment="change properties">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/remote.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/demowebshop/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/example/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/demowebshop/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/CssXpathExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/CssXpathExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/SelenideSnippets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/SelenideSnippets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/GeneratedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/GeneratedTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/example/EXAMPLELoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/demowebshop/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/demowebshop/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/demowebshop/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/local.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,8 @@
     "last_opened_file_path": "C:/Users/Alexandr/Desktop/WorkProjects/TemplateOne/src/test/java/cloud/autotests/docs",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -154,29 +151,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CookieTest.cookieShowed1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":regression" />
-            <option value="--tests" />
-            <option value="&quot;UITesting.CookieTest.cookieShowed1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="TemplateOne [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -189,6 +163,28 @@
         <option name="taskNames">
           <list>
             <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TemplateOne [clean test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-DremoteDriverUrl=http://192.168.0.112:4444/wd/hub/ -DvideoStorage=http://192.168.0.112:4444/video/ -Dthreads=5" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -222,10 +218,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TemplateOne [allureServe]" />
+        <item itemvalue="Gradle.TemplateOne [clean test]" />
         <item itemvalue="Gradle.TemplateOne [test]" />
         <item itemvalue="Gradle.CookieTest" />
         <item itemvalue="Gradle.CookieTest.cookieShowed" />
-        <item itemvalue="Gradle.CookieTest.cookieShowed1" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661417364219</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new structure">
+      <created>1661430514230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661430514230</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +272,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="new structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="new structure" />
+    <MESSAGE value="change properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="change properties" />
   </component>
 </project>

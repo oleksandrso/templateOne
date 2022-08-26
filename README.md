@@ -25,7 +25,7 @@ gradle clean test
 
 Run tests with not filled remote.properties:
 ```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.hopa.cloud/wd/hub/ -DvideoStorage=https://selenoid.hopa.cloud/video/ -Dthreads=1 test
+gradle clean test -DremoteDriverUrl=http://192.168.0.112:4444/wd/hub/ -DvideoStorage=http://192.168.0.112:4444/video/ -Dthreads=5 
 ```
 
 Serve report:

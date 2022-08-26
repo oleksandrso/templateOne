@@ -17,6 +17,7 @@ import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 
 @Story("Login tests")
+@Disabled ("disable")
 public class LoginTests extends TestBase {
 
     static String login,
