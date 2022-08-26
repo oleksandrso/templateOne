@@ -6,8 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8def4837-79fc-4292-8529-b263d33a39bc" name="Changes" comment="change properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/demowebshop/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/demowebshop/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/JUnit5Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/JUnit5Annotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/SelenideSnippets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/SelenideSnippets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/AllureAttachments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/AllureAttachments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/GeneratedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/GeneratedTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/demowebshop/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/demowebshop/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661527093816</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change properties">
+      <created>1661532055206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661532055206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

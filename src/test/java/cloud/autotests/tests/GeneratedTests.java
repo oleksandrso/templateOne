@@ -21,14 +21,8 @@ public class GeneratedTests extends TestBase {
     @Tags({@Tag("blocker"), @Tag("regression"), @Tag("sanity")})
     void generatedTest() {
         step("Открыть \"https://www.google.com/\"", () -> {
-            step("Inside", () -> {
-                step("Inside2.1", () -> {
-                    open("https://www.google.com/");
-                });
-                step("Inside2.2", () -> {
-                    open("https://www.google.com/");
-                });
-            });
+
+            open("https://www.google.com/");
         });
 
         step("Проверить URL", () -> {

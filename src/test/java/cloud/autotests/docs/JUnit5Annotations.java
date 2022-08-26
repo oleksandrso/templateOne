@@ -15,6 +15,11 @@ public class JUnit5Annotations {
         System.out.println("this is before all methods!");
     }
 
+    @AfterAll
+    static void tearDownDown() {
+        System.out.println("this is after all methods!");
+    }
+
     @BeforeEach
     void setUp() {
         System.out.println("this is before each method!");
@@ -25,18 +30,13 @@ public class JUnit5Annotations {
         System.out.println("this is after each method!");
     }
 
-    @AfterAll
-    static void tearDownDown() {
-        System.out.println("this is after all methods!");
-    }
-
-//    @Test
+    //    @Test
     void firstTest() {
         System.out.println("this is the first @test!");
         Assertions.assertTrue(true);
     }
 
-//    @Test
+    //    @Test
     void secondTest() {
         System.out.println("this is the second @test!");
         Assertions.assertTrue(true);

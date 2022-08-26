@@ -1,9 +1,11 @@
 # Project in Allure TestOps with manual & automated tests
-<a target="_blank" href="https://allure.hopa.cloud/project/%s">allure.hopa.cloud/project/%s</a> (ask admin@qa.guru for access)
+
+<a target="_blank" href="https://allure.hopa.cloud/project/%s">allure.hopa.cloud/project/%s</a> (ask admin@qa.guru for
+access)
 
 # Jenkins job
-<a target="_blank" href="https://jenkins.hopa.cloud/job/%s">jenkins.hopa.cloud/job/%s</a>
 
+<a target="_blank" href="https://jenkins.hopa.cloud/job/%s">jenkins.hopa.cloud/job/%s</a>
 
 # USAGE examples
 
@@ -17,25 +19,28 @@
 * videoStorage (url address where you should get video)
 * threads (number of threads)
 
-
 Run tests with filled remote.properties:
+
 ```bash
 gradle clean test
 ```
 
 Run tests with not filled remote.properties:
+
 ```bash
 gradle clean test -DremoteDriverUrl=http://192.168.0.112:4444/wd/hub/ -DvideoStorage=http://192.168.0.112:4444/video/ -Dthreads=5 
 ```
 
 Serve report:
+
 ```bash
 allure serve build/allure-results
 ```
 
-
 ###### For further development there are some example tests in src/test/java/cloud.hopa/tests/demowebshop
+
 * remove @Disabled("...") annotation to run tests
+
 ```bash
 gradle clean demowebshop
 ```
