@@ -56,6 +56,7 @@ public class AllureAttachments {
     public static String getSessionId(){
         return ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
     }
+
     public static void addVideo(String sessionId) {
         URL videoUrl = DriverUtils.getVideoUrl(sessionId);
         if (videoUrl != null) {

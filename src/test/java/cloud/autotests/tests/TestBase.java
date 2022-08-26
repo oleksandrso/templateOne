@@ -34,7 +34,7 @@ public class TestBase {
 //        AllureAttachments.attachNetwork(); // todo
         AllureAttachments.addBrowserConsoleLogs();
         AllureAttachments.addVideoRecord();
-        Selenide.closeWebDriver();
+      //  Selenide.closeWebDriver();
 
         if (Project.isVideoOn()) {
             AllureAttachments.addVideo(sessionId);
