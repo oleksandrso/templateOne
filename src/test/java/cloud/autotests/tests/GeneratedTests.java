@@ -13,12 +13,10 @@ import static com.codeborne.selenide.WebDriverConditions.url;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Tag("regression")
 public class GeneratedTests extends TestBase {
     @Test
     @Description("Soon to be implemented by you ")
     @DisplayName("TemplateOne page opened")
-    @Tags({@Tag("blocker"), @Tag("regression"), @Tag("sanity")})
     void generatedTest() {
         step("Открыть \"https://www.google.com/\"", () -> {
 

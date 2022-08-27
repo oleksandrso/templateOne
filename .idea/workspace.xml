@@ -5,17 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8def4837-79fc-4292-8529-b263d33a39bc" name="Changes" comment="change properties">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/CommonActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/Banners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/CategoriesChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/ChangeLanguage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/ChatOpen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/CookiePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/Games.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/LogoClick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/demowebshop/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/demowebshop/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/JUnit5Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/JUnit5Annotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/SelenideSnippets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/docs/SelenideSnippets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/AllureAttachments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/AllureAttachments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/DriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/DriverSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/GeneratedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/GeneratedTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/demowebshop/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/demowebshop/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +105,14 @@
       <recent name="C:\Users\Alexandr\Desktop\WorkProjects\TemplateOne\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cloud.autotests.tests.testSuits" />
       <recent name="cloud.autotests.tests" />
       <recent name="cloud.autotests.tests.demowebshop" />
       <recent name="hopa.uiTests.helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TemplateOne [allureServe]">
-    <configuration name="CookieTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ChangeLanguage.ChangeLanguageFromList">
+    <configuration name="CategoriesChange.CookiePolicyVisibleIfNoClosedVerticals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +125,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;UITesting.CookieTest&quot;" />
+            <option value="&quot;cloud.autotests.tests.testSuits.CategoriesChange.CookiePolicyVisibleIfNoClosedVerticals&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -130,7 +135,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GeneratedTests.titleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoriesChange.clickButtonChangeCategoryCasino" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +148,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;cloud.autotests.tests.GeneratedTests.titleTest&quot;" />
+            <option value="&quot;cloud.autotests.tests.testSuits.CategoriesChange.clickButtonChangeCategoryCasino&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ChangeLanguage.ChangeLanguageFromList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;cloud.autotests.tests.testSuits.ChangeLanguage.ChangeLanguageFromList&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Games.moreGamesButtonLoadGames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;cloud.autotests.tests.testSuits.Games.moreGamesButtonLoadGames&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,56 +225,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TemplateOne [clean test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="-DremoteDriverUrl=http://192.168.0.112:4444/wd/hub/ -DvideoStorage=http://192.168.0.112:4444/video/ -Dthreads=5" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TemplateOne [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ChangeLanguage.ChangeLanguageFromList" />
+        <item itemvalue="Gradle.CategoriesChange.clickButtonChangeCategoryCasino" />
+        <item itemvalue="Gradle.CategoriesChange.CookiePolicyVisibleIfNoClosedVerticals" />
         <item itemvalue="Gradle.TemplateOne [allureServe]" />
-        <item itemvalue="Gradle.GeneratedTests.titleTest" />
-        <item itemvalue="Gradle.TemplateOne [clean test]" />
-        <item itemvalue="Gradle.TemplateOne [test]" />
-        <item itemvalue="Gradle.CookieTest" />
+        <item itemvalue="Gradle.Games.moreGamesButtonLoadGames" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661532055206</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change properties">
+      <created>1661540980569</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661540980569</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
