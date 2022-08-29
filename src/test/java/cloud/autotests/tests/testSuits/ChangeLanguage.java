@@ -1,6 +1,7 @@
 package cloud.autotests.tests.testSuits;
 
 import cloud.autotests.tests.TestBase;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -14,6 +15,7 @@ import static io.qameta.allure.Allure.step;
 @Tag("regression")
 @Tag("sanity")
 @Tag("blocker")
+@DisplayName("Change Language")
 public class ChangeLanguage extends TestBase {
 
     @CsvSource(value = {

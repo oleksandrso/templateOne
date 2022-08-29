@@ -24,6 +24,6 @@ public interface ProjectConfig extends Config {
     String remoteDriverUrl();
 
     String videoStorage();
-    @DefaultValue("https://hopa.com/")
+    @DefaultValue("https://www.hopa.com/")
     String baseUrl();
 }
