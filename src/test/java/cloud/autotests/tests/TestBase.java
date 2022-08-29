@@ -6,7 +6,6 @@ import cloud.autotests.helpers.CommonActions;
 import cloud.autotests.helpers.DriverSettings;
 import cloud.autotests.helpers.DriverUtils;
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.junit5.AllureJunit5;
@@ -17,8 +16,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 import static com.codeborne.selenide.Configuration.baseUrl;
-import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 @ExtendWith({AllureJunit5.class})
@@ -31,13 +30,15 @@ public class TestBase {
     @BeforeEach
     public void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        step("Open page",()->{
+        step("Open page", () -> {
+            step("Open page");
             open(baseUrl);
+            step("Wait full load");
             CommonActions.waitFullLoad();
             $("#asg-top-menu-desktop").shouldBe(Condition.visible);
             $(".games-menu-list").shouldBe(Condition.visible);
 
-      });
+        });
     }
 
     @AfterEach

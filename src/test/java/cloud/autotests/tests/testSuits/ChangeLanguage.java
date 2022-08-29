@@ -27,8 +27,8 @@ public class ChangeLanguage extends TestBase {
     }, delimiter = '|')
     @ParameterizedTest(name = "Language can be changed to {0}")
     void ChangeLanguageFromList(String language, String urlLanguage) {
-        String s = baseUrl.substring(baseUrl.lastIndexOf(':')+3);
-        String fullUrlLanguage="https://"+urlLanguage+"."+s;
+        String s = baseUrl.substring(baseUrl.lastIndexOf(':') + 7);
+        String fullUrlLanguage = "https://" + urlLanguage + "." + s;
         step("Open language menu", () -> {
             $(".header-language-switcher__btn").click();
         });

@@ -10,10 +10,12 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static com.codeborne.selenide.Condition.hidden;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.sleep;
 import static io.qameta.allure.Allure.step;
 
 @Tag("regression")
+@DisplayName("Cookie policy")
 public class CookiePolicy extends TestBase {
 
     @Test
@@ -37,7 +39,7 @@ public class CookiePolicy extends TestBase {
         });
     }
 
-    @ValueSource(strings = {"Exclusive club","Promotions","Games"})
+    @ValueSource(strings = {"Exclusive club", "Promotions", "Games"})
     @ParameterizedTest(name = "Cookie Policy is shown on {0} page when wasn't closed on Home page")
     void CookiePolicyVisibleIfNoClosedSubMenu(String btnName) {
         step("Open popup", () -> {

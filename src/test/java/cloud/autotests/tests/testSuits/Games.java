@@ -10,6 +10,7 @@ import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Tag("regression")
+@DisplayName("Game Tests")
 public class Games extends TestBase {
 
     @Test

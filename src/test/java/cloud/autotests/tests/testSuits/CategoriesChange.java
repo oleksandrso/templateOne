@@ -1,6 +1,7 @@
 package cloud.autotests.tests.testSuits;
 
 import cloud.autotests.tests.TestBase;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -12,6 +13,7 @@ import static com.codeborne.selenide.WebDriverConditions.url;
 import static io.qameta.allure.Allure.step;
 
 @Tag("regression")
+@DisplayName("Change Category")
 public class CategoriesChange extends TestBase {
 
 
@@ -24,11 +26,12 @@ public class CategoriesChange extends TestBase {
         step("Open verticals", () -> {
             $("[data-vertical-id=" + btnName + "]").click();
             sleep(2000);
-            webdriver().shouldHave(url(baseUrl+ urlSecondPart));
+            webdriver().shouldHave(url(baseUrl + urlSecondPart));
         });
     }
 
     @Test
+    @DisplayName("Verticals can be changed to casino")
     void clickButtonChangeCategoryCasino() {
         step("Open verticals", () -> {
             $("[data-vertical-id=casino]").click();

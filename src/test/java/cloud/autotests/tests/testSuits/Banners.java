@@ -11,6 +11,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
 @Tag("regression")
+@DisplayName("Banner tests")
 public class Banners extends TestBase {
 
     @Test

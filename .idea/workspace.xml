@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8def4837-79fc-4292-8529-b263d33a39bc" name="Changes" comment="change properties">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/CommonActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/DriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/helpers/DriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/GeneratedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/GeneratedTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/Banners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/Banners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/CategoriesChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/CategoriesChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/ChangeLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/ChangeLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/ChatOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/ChatOpen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/CookiePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/CookiePolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/Games.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/LogoClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cloud/autotests/tests/testSuits/LogoClick.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661760501148</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change properties">
+      <created>1661785339350</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661785339350</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

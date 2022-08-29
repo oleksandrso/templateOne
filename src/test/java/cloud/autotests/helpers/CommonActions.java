@@ -2,7 +2,6 @@ package cloud.autotests.helpers;
 
 import cloud.autotests.tests.User;
 import com.codeborne.selenide.Condition;
-import org.aeonbits.owner.Config;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.sleep;
@@ -10,8 +9,8 @@ import static com.codeborne.selenide.Selenide.sleep;
 public class CommonActions {
 
 
-    public static void waitFullLoad(){
-        sleep(10000);
+    public static void waitFullLoad() {
+        sleep(20000);
         $("#asg-top-menu-desktop").shouldBe(Condition.visible);
         $(".games-menu-list").shouldBe(Condition.visible);
     }
@@ -22,15 +21,16 @@ public class CommonActions {
         User ukUser = new User("United Kingdom", "qa_asguk1", "Test123test");
         String login, password;
 
-        if (i==1){
-            login= defaultUser.getLogin();
-            password= defaultUser.getPassword();
-        }if (i==2){
-            login= deUser.getLogin();
-            password= deUser.getPassword();
-        }else {
-            login= ukUser.getLogin();
-            password= ukUser.getPassword();
+        if (i == 1) {
+            login = defaultUser.getLogin();
+            password = defaultUser.getPassword();
+        }
+        if (i == 2) {
+            login = deUser.getLogin();
+            password = deUser.getPassword();
+        } else {
+            login = ukUser.getLogin();
+            password = ukUser.getPassword();
         }
 
         $(".header-login__btn.header-btn").click();

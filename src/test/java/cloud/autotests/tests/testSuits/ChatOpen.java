@@ -1,7 +1,6 @@
 package cloud.autotests.tests.testSuits;
 
 import cloud.autotests.tests.TestBase;
-import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -15,6 +14,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverConditions.url;
 
 @Tag("regression")
+@DisplayName("Chat Open")
 public class ChatOpen extends TestBase {
     @Test
     @DisplayName("Chat opens in pre-login")
