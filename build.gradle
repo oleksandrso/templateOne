@@ -80,3 +80,8 @@ task regression(type: Test) {
         includeTags 'regression'
     }
 }
+task blocker(type: Test) {
+    useJUnitPlatform {
+        includeTags 'blocker','hopa','karamba'
+    }
+}

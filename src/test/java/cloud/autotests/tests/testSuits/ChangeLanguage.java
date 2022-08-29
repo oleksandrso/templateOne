@@ -12,6 +12,8 @@ import static com.codeborne.selenide.WebDriverConditions.url;
 import static io.qameta.allure.Allure.step;
 
 @Tag("regression")
+@Tag("sanity")
+@Tag("blocker")
 public class ChangeLanguage extends TestBase {
 
     @CsvSource(value = {
