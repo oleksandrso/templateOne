@@ -72,6 +72,9 @@ test {
 }
 
 task regression(type: Test) {
+    if(System.getProperty("threads")==null){
+        maxParallelForks = Runtime.runtime.availableProcessors()
+    }
     useJUnitPlatform {
         includeTags 'regression'
     }
