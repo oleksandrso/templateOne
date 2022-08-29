@@ -10,7 +10,7 @@ public class CommonActions {
 
 
     public static void waitFullLoad() {
-        sleep(20000);
+        sleep(10000);
         $("#asg-top-menu-desktop").shouldBe(Condition.visible);
         $(".games-menu-list").shouldBe(Condition.visible);
     }
