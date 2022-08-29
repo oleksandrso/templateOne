@@ -48,7 +48,7 @@ tasks.withType(Test) {
     systemProperties(System.getProperties())
     useJUnitPlatform()
 
-    if (System.getProperty("threads") != null) {
+    if (System.getProperty("threads") != null && System.getProperty("threads") != 0) {
         systemProperties += [
                 'junit.jupiter.execution.parallel.enabled'                 : true,
                 'junit.jupiter.execution.parallel.mode.default'            : 'concurrent',
@@ -72,7 +72,7 @@ test {
 }
 
 task regression(type: Test) {
-    if(System.getProperty("threads")==null){
+    if(System.getProperty("threads")==0){
         maxParallelForks = Runtime.runtime.availableProcessors()
     }
     useJUnitPlatform {
