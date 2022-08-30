@@ -1,11 +1,10 @@
 # Project in Allure TestOps with manual & automated tests
 
-<a target="_blank" href="https://allure.hopa.cloud/project/%s">allure.hopa.cloud/project/%s</a> (ask admin@qa.guru for
-access)
+
 
 # Jenkins job
 
-<a target="_blank" href="https://jenkins.hopa.cloud/job/%s">jenkins.hopa.cloud/job/%s</a>
+
 
 # USAGE examples
 
