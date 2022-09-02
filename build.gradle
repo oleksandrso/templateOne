@@ -81,3 +81,14 @@ task regression(type: Test) {
         includeTags 'regression'
     }
 }
+
+task onetest(type: Test) {
+    /*
+    if(System.getProperty("threads")==0){
+        maxParallelForks = Runtime.runtime.availableProcessors()
+    }
+      */
+    useJUnitPlatform {
+        includeTags 'onetest'
+    }
+}

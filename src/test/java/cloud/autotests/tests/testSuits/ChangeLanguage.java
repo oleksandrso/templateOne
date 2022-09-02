@@ -31,6 +31,7 @@ public class ChangeLanguage extends TestBase {
         String fullUrlLanguage = "https://" + urlLanguage + "." + s;
         step("Open language menu", () -> {
             $(".header-language-switcher__btn").click();
+
         });
         step("Change language to {0}", () -> {
             $(".header-language-switcher__menu").$(byText(language)).click();

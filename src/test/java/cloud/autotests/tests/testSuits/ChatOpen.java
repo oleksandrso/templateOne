@@ -14,6 +14,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverConditions.url;
 
 @Tag("regression")
+@Tag("onetest")
 @DisplayName("Chat Open")
 public class ChatOpen extends TestBase {
     @Test

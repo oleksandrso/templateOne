@@ -13,6 +13,7 @@ import static com.codeborne.selenide.WebDriverConditions.urlContaining;
 import static io.qameta.allure.Allure.step;
 
 @Tag("regression")
+
 @DisplayName("Logo click")
 public class LogoClick extends TestBase {
 
