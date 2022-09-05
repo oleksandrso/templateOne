@@ -48,7 +48,13 @@ tasks.withType(Test) {
     systemProperties(System.getProperties())
     useJUnitPlatform()
 
-    if (System.getProperty("threads") != null && System.getProperty("threads") != 0) {
+
+
+   if(System.getProperty("threads")==0){
+       maxParallelForks = Runtime.runtime.availableProcessors()
+   }
+    /*if (System.getProperty("threads") != null && System.getProperty("threads") != 0) {
+
         systemProperties += [
                 'junit.jupiter.execution.parallel.enabled'                 : true,
                 'junit.jupiter.execution.parallel.mode.default'            : 'concurrent',
@@ -56,7 +62,7 @@ tasks.withType(Test) {
                 'junit.jupiter.execution.parallel.config.strategy'         : 'fixed',
                 'junit.jupiter.execution.parallel.config.fixed.parallelism': System.getProperty("threads").toInteger()
         ]
-    }
+    }*/
 
     testLogging {
         lifecycle {
@@ -83,11 +89,7 @@ task regression(type: Test) {
 }
 
 task onetest(type: Test) {
-    /*
-    if(System.getProperty("threads")==0){
-        maxParallelForks = Runtime.runtime.availableProcessors()
-    }
-      */
+
     useJUnitPlatform {
         includeTags 'onetest'
     }

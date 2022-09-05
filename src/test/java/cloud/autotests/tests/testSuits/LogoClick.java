@@ -1,10 +1,13 @@
 package cloud.autotests.tests.testSuits;
 
 import cloud.autotests.tests.TestBase;
+import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+
+import java.time.Duration;
 
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.*;
@@ -16,6 +19,8 @@ import static io.qameta.allure.Allure.step;
 
 @DisplayName("Logo click")
 public class LogoClick extends TestBase {
+
+
 
 
     @CsvSource(value = {
@@ -37,6 +42,9 @@ public class LogoClick extends TestBase {
             $(".header-logo").click();
             sleep(2000);
             webdriver().shouldHave(url(baseUrl));
+
+            $("").shouldBe(Condition.visible, Duration.ofSeconds(30));
+
         });
     }
 }
