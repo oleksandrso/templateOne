@@ -50,7 +50,7 @@ tasks.withType(Test) {
 
 
 
-   if(System.getProperty("threads")==0){
+   if(System.getProperty("threads") != null && System.getProperty("threads").toInteger()==0){
        maxParallelForks = Runtime.runtime.availableProcessors()
    }
     /*if (System.getProperty("threads") != null && System.getProperty("threads") != 0) {
