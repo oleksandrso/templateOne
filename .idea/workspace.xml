@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8def4837-79fc-4292-8529-b263d33a39bc" name="Changes" comment="change properties">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/config/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/config/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/config/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/docs/CssXpathExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/docs/CssXpathExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/docs/JUnit5Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/docs/JUnit5Annotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/docs/SelenideSnippets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/docs/SelenideSnippets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/helpers/AllureAttachments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/helpers/AllureAttachments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/helpers/AllureRestAssuredFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/helpers/AllureRestAssuredFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/helpers/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/helpers/CommonActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/helpers/DriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/helpers/DriverSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/helpers/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/helpers/DriverUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/tests/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/tests/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/Banners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/Banners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/CategoriesChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/CategoriesChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/ChangeLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/ChangeLanguage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/ChatOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/ChatOpen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/CookiePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/CookiePolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/Games.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/LogoClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotest/tests/testSuits/LogoClick.java" afterDir="false" />
-    </list>
+    <list default="true" id="8def4837-79fc-4292-8529-b263d33a39bc" name="Changes" comment="fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -376,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662365012720</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix">
+      <created>1662565627566</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662565627566</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,6 +379,7 @@
     <MESSAGE value="First" />
     <MESSAGE value="new structure" />
     <MESSAGE value="change properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="change properties" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
