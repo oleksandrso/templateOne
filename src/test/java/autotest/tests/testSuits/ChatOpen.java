@@ -1,12 +1,12 @@
-package cloud.autotests.tests.testSuits;
+package autotest.tests.testSuits;
 
-import cloud.autotests.tests.TestBase;
+import autotest.helpers.CommonActions;
+import autotest.tests.TestBase;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-import static cloud.autotests.helpers.CommonActions.login;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selectors.byText;
@@ -31,7 +31,7 @@ public class ChatOpen extends TestBase {
     @Test
     @DisplayName("Chat opens in post-login")
     void ChatOpensPostLogin() {
-        login(1);
+        CommonActions.login(1);
         $(byText("Help")).click();
         $(".asg-context-menu__menu").$(byText("Contact Us")).click();
         sleep(2000);

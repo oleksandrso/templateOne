@@ -1,10 +1,10 @@
-package cloud.autotests.tests;
+package autotest.tests;
 
-import cloud.autotests.config.Project;
-import cloud.autotests.helpers.AllureAttachments;
-import cloud.autotests.helpers.CommonActions;
-import cloud.autotests.helpers.DriverSettings;
-import cloud.autotests.helpers.DriverUtils;
+import autotest.config.Project;
+import autotest.helpers.AllureAttachments;
+import autotest.helpers.CommonActions;
+import autotest.helpers.DriverSettings;
+import autotest.helpers.DriverUtils;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;

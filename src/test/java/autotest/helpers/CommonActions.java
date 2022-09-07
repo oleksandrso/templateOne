@@ -1,6 +1,6 @@
-package cloud.autotests.helpers;
+package autotest.helpers;
 
-import cloud.autotests.tests.User;
+import autotest.tests.User;
 import com.codeborne.selenide.Condition;
 
 import static com.codeborne.selenide.Selenide.$;

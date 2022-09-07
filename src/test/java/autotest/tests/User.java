@@ -1,4 +1,4 @@
-package cloud.autotests.tests;
+package autotest.tests;
 
 public class User {
     String country, login, password;
@@ -12,7 +12,6 @@ public class User {
     public static void userCredential() {
 
     }
-
     public String getCountry() {
         return country;
     }

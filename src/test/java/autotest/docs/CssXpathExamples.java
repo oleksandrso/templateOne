@@ -1,4 +1,4 @@
-package cloud.autotests.docs;
+package autotest.docs;
 
 import org.openqa.selenium.By;
 
