@@ -42,9 +42,6 @@ public class LogoClick extends TestBase {
             $(".header-logo").click();
             sleep(2000);
             webdriver().shouldHave(url(baseUrl));
-
-            $("").shouldBe(Condition.visible, Duration.ofSeconds(30));
-
         });
     }
 }
