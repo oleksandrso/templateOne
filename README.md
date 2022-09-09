@@ -1,12 +1,25 @@
-# Project in Allure TestOps with manual & automated tests
+## Project automated tests with docker + selenoid
+#### In project used: 
+- Gradle
+- Java 11 
+- Selenide
+- Allure Report
+- Multithreading
+#### The test stand use:
 
+- Docker (docker compose file) 
+- Selenoid 
+- Jenkins
 
-
+#### Allure report with video / Images / logs / page source
+![](extraResources/VideoRecordSelenide.gif)
+![](extraResources/attachments.png)
+![](extraResources/Diagrams.png)
+![](extraResources/TimeLine.png)
 # Jenkins job
-
-
-
-# USAGE examples
+![](extraResources/Jenkins.png)
+# Selenoid 
+![](extraResources/selenoidManualBrowser.gif)
 
 ### For run remote tests need fill remote.properties or to pass value:
 
@@ -27,7 +40,7 @@ gradle clean test
 Run tests with not filled remote.properties:
 
 ```bash
-gradle clean regression -DremoteDriverUrl=http://192.168.0.104:4444/wd/hub/ -DvideoStorage=http://192.168.0.104:4444/video/ -Dthreads=5 
+gradle clean regression -DremoteDriverUrl=http://YourHost/wd/hub/ -DvideoStorage=http://yourHost/video/ -Dthreads=5 
 ```
 
 Serve report:
